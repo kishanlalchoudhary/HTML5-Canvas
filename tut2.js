@@ -1,7 +1,7 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
-// Animation - Bouncing Ball in a Box
+// Animation - Ball Bouncing in a Box
 
 const circle = {
   x: 200,

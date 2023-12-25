@@ -6,8 +6,6 @@ The HTML5 canvas allows you to use graphics on the screen, and draw and manage v
 
 ![Screenshot (719)](https://github.com/kishanlalchoudhary/HTML5-Canvas/assets/107745828/0c55c653-09cc-4b98-b18a-5ea910cf357b)
 
-![Screenshot (730)](https://github.com/kishanlalchoudhary/HTML5-Canvas/assets/107745828/ef3c2cf2-b6ec-425d-b42d-bab71234c851)
-
 ![Screenshot (718)](https://github.com/kishanlalchoudhary/HTML5-Canvas/assets/107745828/9cf7122b-3edc-4050-8624-0bbaa87f225f)
 
 ![Screenshot (729)](https://github.com/kishanlalchoudhary/HTML5-Canvas/assets/107745828/cf448bae-5195-4b07-bac1-29ccb424e5db)
@@ -35,7 +33,5 @@ The HTML5 canvas allows you to use graphics on the screen, and draw and manage v
 ![Screenshot (742)](https://github.com/kishanlalchoudhary/HTML5-Canvas/assets/107745828/124a9516-0c35-498b-8b7a-7f7684a136a8)
 
 ![Screenshot (743)](https://github.com/kishanlalchoudhary/HTML5-Canvas/assets/107745828/470e71df-6e86-4df8-99b9-5e778044cb38)
-
-![Screenshot (744)](https://github.com/kishanlalchoudhary/HTML5-Canvas/assets/107745828/603272d9-6fbd-46cb-966e-57c51218ec02)
 
 ![Screenshot (745)](https://github.com/kishanlalchoudhary/HTML5-Canvas/assets/107745828/0f3054c2-e8b5-47bb-a3a7-76d460f4dfa9)

@@ -54,6 +54,7 @@ let mouse_move = function (e) {
 
 let mouse_out = function (e) {
   e.preventDefault();
+  
   circle.x = canvas_width / 2;
   circle.y = canvas_height / 2;
 };

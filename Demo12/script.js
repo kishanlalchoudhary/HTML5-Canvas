@@ -54,10 +54,56 @@ let mouse_move = function (e) {
 
 let mouse_out = function (e) {
   e.preventDefault();
-  
+
   circle.x = canvas_width / 2;
   circle.y = canvas_height / 2;
 };
 
+let dist1;
+let dist2;
+
+let touch_start = function (e) {
+  // console.log("start");
+  if (e.touches.length == 2) {
+    dist1 = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+    console.log(dist1);
+    console.log("2 Fingers");
+  }
+};
+
+let touch_move = function (e) {
+  // console.log("move");
+
+  if (e.touches.length == 1) {
+    console.log("Drag");
+  }
+
+  if (e.touches.length == 2) {
+    dist2 = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+    console.log(dist2);
+    console.log("2 Fingers");
+
+    if (dist1 > dist2) {
+      console.log("Zoom Out");
+    }
+    if (dist1 < dist2) {
+      console.log("Zoom In");
+    }
+  }
+};
+
+let touch_end = function (e) {
+  console.log("end");
+};
+
 canvas.onmousemove = mouse_move;
 canvas.onmouseout = mouse_out;
+canvas.ontouchstart = touch_start;
+canvas.ontouchmove = touch_move;
+canvas.ontouchend = touch_end;
